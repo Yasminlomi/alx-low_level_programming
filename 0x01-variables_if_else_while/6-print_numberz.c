@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
 *main - Entery point
-*Description: 'print numbers of base 10'
+*Description: 'print number base'
 *Return: always 0
 */
 int main(void)
@@ -10,8 +10,8 @@ int n;
 
 for (n = 0; n <= 9; n++)
 {
-putchar(n);
+putchar(n + 48);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
